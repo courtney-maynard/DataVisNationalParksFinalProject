@@ -1,0 +1,182 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Bangla MN;
+  background-color: #F2E7C9;
+  color: #1D493D;
+  text-align: center;
+}
+
+#mainHeader {
+  font-size: 60px;
+  padding-bottom: 0%;
+  margin-bottom: 0;
+}
+
+#mainSubHeader {
+  font-size: 25px;
+  margin: 0;
+}
+
+#lineBreak {
+  border: 4px dashed #795C5F;
+  margin: 2%;
+}
+
+#mapSection {
+  margin-top: 1%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#usageSection {
+  width: 36%;
+  text-align: left;
+  padding-left: 1%;
+}
+
+#largeMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+#exploreSection {
+  display: flex;
+  flex-direction: column;
+}
+
+#searchInput {
+  width: 40%;
+  font-size: 18px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: 1px solid #795C5F;
+  margin-bottom: 1%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Bangla MN';
+}
+
+#searchList {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#searchList li a {
+  background-color: #F2E7C9;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-decoration: none;
+  font-size: 16px;
+  color: #1D493D;
+  display: block;
+  text-align: center;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#searchList li a:hover:not(.header) {
+  background-color: #85AF83;
+  color: #F2E7C9;
+}
+
+.titleSteps {
+  align-content: center;
+  font-size: 40px;
+  color: #1D493D;
+  margin-bottom: 0%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #F7F0DE;
+
+}
+
+.descriptionSteps {
+  font-size: 20px;
+  color: #795C5F;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 0%;
+  background-color: #F7F0DE;
+}
+
+.compareButtons {
+  background-color: #60935D;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 1%;
+  font-size: 25px;
+  font-family: Bangla MN;
+  color: #F7F0DE;
+}
+
+.compareButtons:hover {
+  background-color: #85AF83;
+}
+
+#mapTitle {
+  font-size: 30px;
+}
+
+#popExplanation{
+  background-color: #F7F0DE;
+  color: #795C5F;
+  padding: 1%;
+  margin: 1%;
+  font-size: 15px;
+}
+
+
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1D493D;
+}
+
+.navPages {
+  float: right;
+}
+
+.navPages a {
+  display: inline-block;
+  color: #F7F0DE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+  overflow: hidden
+}
+
+.navPages a:hover,
+.dropdown:hover {
+  background-color: #60935D;
+}
+
+.navPages.dropdown {
+  display: inline-block;
+
+  color: #F7F0DE;
+  background-color: #85AF83;
+}
+
+.dropdown:hover .navExplorePages {
+  color: #F7F0DE;
+  background-color: #85AF83;
+  display: block;
+}
