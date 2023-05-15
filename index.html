@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+  <ul class = 'navBar'>
+    <li class = 'navPages'><a href = "about.html">About The Project</a></li>
+    <li class = 'navPages'><a href="comparefeatures.html">Compare Features</a></li>
+    <li class = 'navPages'><a href="compareactivities.html">Compare Activities</a></li>
+    <li class = 'navPages'><a href="index.html">Main Page</a></li>
+  </ul>
+  
+  <p id = 'mainHeader'><strong>I Want To Hike That Trail!</strong></p>
+  <p id = 'mainSubHeader'>Inspired by countless conversations regarding what hike to do, <strong>I Want To Hike That Trail!</strong> is the latest website for choosing your next hiking adventure! Explore what each United States National Park has to offer and learn about what makes a trail popular!</p>
+  
+  <hr id="lineBreak"> 
+  <p id='popExplanation'> A Note On Popularity: This website references a measure of Trail Popularity: a combination of several metrics from AllTrails and the National Parks Service regarding visitor usage and other factors. The popularity of a trail ranges from 0 to 100, and these numbers are comparative across all parks, not per park. The most popular trail in the entire United States national parks system has a popularity measurement of 84.6, and the least popular trail has a popularity measurement of 0.0.</p>
+  
+  <div id='largeMainContainer'>
+  <h1 class = 'titleSteps'>Choose Your Park</h1>
+    <div id='mapSection'>
+<div class='tableauPlaceholder' id='viz1684017376834' style='position: relative'><noscript><a href='#'><img alt='MAPNATPARKS ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MA&#47;MAPHOMEPAGE&#47;MAPNATPARKS&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='views&#47;MAPHOMEPAGE&#47;MAPNATPARKS?:language=en-US&amp;:embed=true&amp;publish=yes' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MA&#47;MAPHOMEPAGE&#47;MAPNATPARKS&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1684017376834');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+      <div id='usageSection'>
+        <h1 id = 'mapTitle'> How To Use This Map:</h6>
+          <ul class = 'usageDescriptions'>
+            <li>Hover over any of the National Park bubbles to see: name of the park, number of registered trails, and the
+              average length and elevation gain of the trails at that park
+            </li>
+            <li> Use the + and - to zoom into the center of the map and the 'house' to reset the map to the original
+              scope of the United States</li>
+            <li>Click on the > for the options to zoom into a specific area with the 'magnifying glass' and select a
+              specific area with the 'dashed lassos'</li>
+            <li>Darker bubbles indicate parks with a greater number of trails</li>
+          </ul>
+        
+      </div>
+    </div>
+
+
+    <div id='compareParks'>
+      <h1 class = 'titleSteps'>Compare Your Park</h1>
+      <h2 class = 'descriptionSteps'>Before you decide on which park you want to explore further (both on the ground and digitally!), compare your park to other parks to determine if the trails have the features you want to see and activities that you want to do.</h2>
+      <div id = 'buttonsSection'>
+        <a href="compareactivities.html">
+          <button class = 'compareButtons'>Compare Activities</button>
+        </a>
+        <a href="comparefeatures.html">
+          <button class = 'compareButtons'>Compare Features</button>
+        </a>
+      </div>
+    </div>
+    <br></br>
+    <div id='exploreSection'>
+      <h1 class = 'titleSteps'>Explore Your Park</h1>
+      <h2 class = 'descriptionSteps'>Take a deeper dive into the trails at any national park and determine which trails fit the lengths, elevation gains, and route types that you want to hike.</h2>
+      <!-- all of the links for pages for the explore section -->
+      
+      <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Type Here To Search For Parks ...">
+      <ul id="searchList">
+        <div>
+        <li>
+          <a href="explorePages/acadiaexplore.html">Acadia National Park</a>
+        </li>
+  
+        <li>
+          <a href="explorePages/archesexplore.html">Arches National Park</a>
+        </li>
+        
+        <li>
+          <a href="explorePages/badlandsexplore.html">Badlands National Park</a>
+        </li>
+
+        <li>
+          <a href="explorePages/bigbendexplore.html">Big Bend National Park</a>
+        </li>
+        
+        <li>
+          <a href="explorePages/biscayneexplore.html">Biscayne National Park</a>
+        </li>
+      
+        <li>
+          <a href="explorePages/blackcanyonexplore.html">Black Canyon of the Gunnison National Park</a>
+        </li>
+
+        <li>
+          <a href="explorePages/brycecanyonexplore.html">Bryce Canyon National Park</a>
+        </li>
+
+        <li>
+          <a href="explorePages/canyonlandsexplore.html">Canyonlands National Park</a>
+        </li>
+        
+        <li>
+          <a href="explorePages/capitolreefexplore.html">Capitol Reef National Park</a>
+        </li>
+
+        <li>
+          <a href="explorePages/carlsbadcavernsexplore.html">Carlsbad Caverns National Park</a>
+        </li>
+        
+        <li>
+          <a href="explorePages/channelislandsexplore.html">Channel Islands National Park</a>
+        </li>
+
+        <li>
+          <a href="explorePages/claytoncoexplore.html">Clayton Co International Park, Jonesboro GA</a>
+        </li>
+        
+        <li>
+          <a href="explorePages/congareewildernessexplore.html">Congaree National Park Wilderness</a>
+        </li>
+
+        <li>
+          <a href="explorePages/congareeexplore.html">Congaree National Park </a>
+        </li>
+        
+        <li>
+          <a href="explorePages/craterlakeexplore.html">Crater Lake National Park </a>
+        </li>
+        </div>
+        <div>
+        <li>
+          <a href="explorePages/cuyahogavalleyexplore.html">Cuyahoga Valley National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/deathvalleyexplore.html">Death Valley National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/denaliexplore.html">Denali National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/drytortugasexplore.html">Dry Tortugas National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/evergladesexplore.html">Everglades National Park </a>
+        </li>
+        
+        <li>
+          <a href="explorePages/forthuntexplore.html">Fort Hunt National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/fortpickensexplore.html">Fort Pickens National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/gatewayarchexplore.html">Gateway Arch National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/glacierbayexplore.html">Glacier Bay National Park </a>
+        </li>
+        
+        <li>
+          <a href="explorePages/glacierexplore.html">Glacier National Park </a>
+        </li>
+        
+        <li>
+          <a href="explorePages/grandcanyonexplore.html">Grand Canyon National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/grandtetonexplore.html">Grand Teton National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/greatbasinexplore.html">Great Basin National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/greatsandexplore.html">Great Sand Dunes National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/greatsmokyexplore.html">Great Smoky Mountains National Park </a>
+        </li>
+        </div>
+        <div>
+        <li>
+          <a href="explorePages/guadalupeexplore.html">Guadalupe Mountains National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/haleakalaexplore.html">Haleakala National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/hawaiivolcanoesexplore.html">Hawaii Volcanoes National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/hotspringsexplore.html">Hot Springs National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/indianadunesexplore.html">Indiana Dunes National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/isleroyaleexplore.html">Isle Royale National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/joshuatreeexplore.html">Joshua Tree National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/katmaiexplore.html">Katmai National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/kenaifjordsexplore.html">Kenai Fjords National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/kingscanyonexplore.html">Kings Canyon National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/lassenexplore.html">Lassen Volcanic National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/mammothexplore.html">Mammoth Cave National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/mesaverdeexplore.html">Mesa Verde National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/mountrainierexplore.html">Mount Rainier National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/northcascadesexplore.html">North Cascades National Park </a>
+        </li>
+        </div>
+        <div>
+        <li>
+          <a href="explorePages/olympicexplore.html">Olympic National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/petrifiedforestexplore.html">Petrified Forest National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/pinnaclesexplore.html">Pinnacles National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/redwoodexplore.html">Redwood National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/rockymountainexplore.html">Rocky Mountain National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/saguaroexplore.html">Saguaro National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/sequoiaexplore.html">Sequoia National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/shenandoahexplore.html">Shenandoah National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/theodorerooseveltexplore.html">Theodore Roosevelt National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/voyageursexplore.html">Voyageurs National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/windcaveexplore.html">Wind Cave National Park </a>
+        </li>
+
+        <li>
+          <a href="explorePages/wolftrapexplore.html">Wolf Trap National Park for the Performing Arts</a>
+        </li>
+
+        <li>
+          <a href="explorePages/yellowstoneexplore.html">Yellowstone National Park</a>
+        </li>
+
+        <li>
+          <a href="explorePages/yosemiteexplore.html">Yosemite National Park</a>
+        </li>
+
+        <li>
+          <a href="explorePages/zionexplore.html">Zion National Park</a>
+        </li>
+        </div>
+      </ul>
+  </div>
+
+  </div>
+
+</body>
+
+</html>
