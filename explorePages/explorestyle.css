@@ -1,0 +1,96 @@
+body{
+  font-family: Bangla MN;
+  background-color: #F2E7C9;
+  color: #1D493D;
+}
+
+.exploreTitle{
+  font-size: 40px;
+}
+.bubbleSection{
+  justify-content: center;
+  width:98%;
+  display: flex;
+  flex-direction: row;
+  margin: 1%;
+}
+.visSection{
+  display:flex;
+  width: 57%;
+}
+
+.bubbleDescriptionSection{
+  margin-left: 3%;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #F2E7C9;
+}
+
+.stripchartSection{
+  justify-content: center;
+  width:98%;
+  display: flex;
+  flex-direction: row;
+  margin: 1%;
+}
+
+.stripchartDescriptionSection{
+  margin-right: 3%;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.tableSection{
+  justify-content: center;
+  margin-left: 6%;
+  width:90%;
+  margin-right: 5%;
+  
+}
+
+.visUseTitle{
+  font-size:17px;
+}
+.visUseDescription{
+  font-size: 16px;
+}
+.visPurposeDescription{
+  padding-left: 1%;
+  font-size: 14px;
+  background-color: #F7F0DE;
+  color: #795C5F;
+}
+
+
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1D493D;
+}
+
+.navPages {
+  float: right;
+}
+
+.navPages a {
+  display: inline-block;
+  color: #F7F0DE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+  overflow: hidden
+}
+
+.navPages a:hover, .dropdown:hover {
+  background-color: #60935D;
+}
+
+.navPages.dropdown {
+  display: inline-block;
+}
